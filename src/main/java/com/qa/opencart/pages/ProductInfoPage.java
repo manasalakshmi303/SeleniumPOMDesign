@@ -48,15 +48,15 @@ public class ProductInfoPage {
 		return imagesCount;
 	}
 	
-	public ShoppingCartPage doEnterQuantity(int qtySize) {
-		WebElement productQty = eleUtil.waitForElementVisible(quantity, AppConstants.DEFAULT_MEDIUM_WAIT);
-		productQty.clear();
-		productQty.sendKeys(String.valueOf(qtySize));
-		eleUtil.doClick(addToCartBtn);
-		eleUtil.waitForElementVisible(shoppingCartLink, AppConstants.DEFAULT_MEDIUM_WAIT).click();
-		return new ShoppingCartPage(driver);
-		
-	}
+//	public ShoppingCartPage doEnterQuantity(int qtySize) {
+//		WebElement productQty = eleUtil.waitForElementVisible(quantity, AppConstants.DEFAULT_MEDIUM_WAIT);
+//		productQty.clear();
+//		productQty.sendKeys(String.valueOf(qtySize));
+//		eleUtil.doClick(addToCartBtn);
+//		eleUtil.waitForElementVisible(shoppingCartLink, AppConstants.DEFAULT_MEDIUM_WAIT).click();
+//		return new ShoppingCartPage(driver);
+//		
+//	}
 	
 	public Map<String, String> getProductData() {
 		//productMap = new HashMap<String, String>(); //[] and does not maintain the order
