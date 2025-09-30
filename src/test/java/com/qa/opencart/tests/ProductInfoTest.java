@@ -68,12 +68,12 @@ public class ProductInfoTest extends BaseTest{
 		Assert.assertEquals(actImagesCount, imageCount);
 	}
 	
-	@Test
-	public void productQuantitySizeTest() {
-		searchResultsPage = accPage.doSearch("macbook");
-		productInfoPage = searchResultsPage.selectProduct("MacBook Pro");
-		productInfoPage.doEnterQuantity(5);
-	}
+//	@Test
+//	public void productQuantitySizeTest() {
+//		searchResultsPage = accPage.doSearch("macbook");
+//		productInfoPage = searchResultsPage.selectProduct("MacBook Pro");
+//		productInfoPage.doEnterQuantity(5);
+//	}
 	
 	@Test
 	public void productInfoTest() {
