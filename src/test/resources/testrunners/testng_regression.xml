@@ -19,7 +19,7 @@
 	</test>
 
 
-	 <!-- <test name="Login Page Test_chrome">
+	  <test name="Login Page Test_chrome">
 		 <parameter name="browser" value="chrome" />
 
 		<classes>
@@ -34,11 +34,11 @@
 		<classes>
 			<class name="com.qa.opencart.tests.LoginPageTest" />
 		</classes>
-	</test> -->
+	</test> 
 
 
 
-	 <!--<test name="Accounts Page Test">
+	 <test name="Accounts Page Test">
 	<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="com.qa.opencart.tests.AccountsPageTest" />
@@ -64,7 +64,7 @@
 		<classes>
 			<class name="com.qa.opencart.tests.RegisterPageTest" />
 		</classes>
-	</test>-->
+	</test>
 
 
 </suite>	
