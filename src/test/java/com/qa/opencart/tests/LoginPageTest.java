@@ -24,7 +24,7 @@ public class LoginPageTest extends BaseTest{
 	//assertions should write here
 	
 	
-	@Description("Login page title test....")
+	@Description("Login page title test......")
 	@Owner("Manasa")
 	@Severity(SeverityLevel.MINOR)
 	@Test
